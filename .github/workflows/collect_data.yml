@@ -3,7 +3,7 @@ name: Collect Tfl Data Every 15 mins
 on:
   schedule:
     - cron: '*/15 * * * *'
-  workflow_dispach:
+  workflow_dispatch:
 
 permissions:
   contents: write
