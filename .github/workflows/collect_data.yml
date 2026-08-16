@@ -26,7 +26,7 @@ jobs:
         run: uv sync --frozen
       
       - name: run Tfl Collector
-        run: uv run python src/data/collect_tfl.py
+        run: uv run python -m src.data.collect_tfl
       
       - name: Commit and push changes
         run: |
